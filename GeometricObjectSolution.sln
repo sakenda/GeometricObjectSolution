@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometricObjectLibrary", "GeometricObjectLibrary\GeometricObjectLibrary.csproj", "{FD3087F7-A6B6-406B-889C-22718ECE9537}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleApplication", "TestConsoleApplication\TestConsoleApplication.csproj", "{47404418-7C5F-4D34-A32C-8A60DE4BFC7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD3087F7-A6B6-406B-889C-22718ECE9537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD3087F7-A6B6-406B-889C-22718ECE9537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD3087F7-A6B6-406B-889C-22718ECE9537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD3087F7-A6B6-406B-889C-22718ECE9537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47404418-7C5F-4D34-A32C-8A60DE4BFC7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47404418-7C5F-4D34-A32C-8A60DE4BFC7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47404418-7C5F-4D34-A32C-8A60DE4BFC7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47404418-7C5F-4D34-A32C-8A60DE4BFC7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {356E873F-472E-46C0-897F-DF3A3E155D6E}
+	EndGlobalSection
+EndGlobal
