@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GeometricObjectsSolution.InvalidMeasureEventArgs" Collapsed="true">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAIAAAAAAAAAIQAAAAAABAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Misc\Delegate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeometricObjectsSolution.MovingEventArgs" Collapsed="true">
+    <Position X="10.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Misc\Delegate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeometricObjectsSolution.GeometricObjectComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Misc\GeometricObjectComparer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GeometricObjectsSolution.InvalidMeasureException" Collapsed="true">
+    <Position X="8.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Misc\InvalidMeasureException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeometricObjectsSolution.Circle" Collapsed="true">
+    <Position X="4" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIIAAAACKAAIAAEAAAAAAAAACBAAAEAAAAAEAAAAAA=</HashCode>
+      <FileName>Models\Circle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GeometricObjectsSolution.GeometricObject" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAACIAAIAQAoAKABgEBgAAAAIEAgEAAEAAAJyA=</HashCode>
+      <FileName>Models\GeometricObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GeometricObjectsSolution.GraphicCircle" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="GeometricObjectsSolution.Circle" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.5" Y="3.313" />
+        <Point X="5.875" Y="3.313" />
+        <Point X="5.875" Y="4.875" />
+        <Point X="5.5" Y="4.875" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\GraphicCircle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GeometricObjectsSolution.GraphicRectangle" Collapsed="true">
+    <Position X="6.25" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="GeometricObjectsSolution.Rectangle" FixedFromPoint="true">
+      <Path>
+        <Point X="7.75" Y="3.312" />
+        <Point X="8.125" Y="3.312" />
+        <Point X="8.125" Y="4.846" />
+        <Point X="7.75" Y="4.846" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\GraphicRectangle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GeometricObjectsSolution.Rectangle" Collapsed="true">
+    <Position X="6.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoAAAQAAKAAAAAEAAAAAEBAAAAAAAEAAAAAEABAABA=</HashCode>
+      <FileName>Models\Rectangle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Struct Name="GeometricObjectsSolution.Point" Collapsed="true">
+    <Position X="8.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Models\Point.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="GeometricObjectsSolution.IDraw" Collapsed="true">
+    <Position X="8.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Misc\IDraw.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="GeometricObjectsSolution.InvalidMeasureEventHandler" Collapsed="true">
+    <Position X="8.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Misc\Delegate.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="GeometricObjectsSolution.MovingEventHandler" Collapsed="true">
+    <Position X="8.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Misc\Delegate.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="GeometricObjectsSolution.MovedEventHandler" Collapsed="true">
+    <Position X="10.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Misc\Delegate.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using GeometricObjectsSolution;
+﻿using GeometricObjectsSolution;
+using System;
 
 namespace TestConsoleApplication
 {
@@ -12,7 +8,7 @@ namespace TestConsoleApplication
         static void Main(string[] args)
         {
             Circle circle = new Circle(22);
-            Console.WriteLine(circle.Radius);
+            Console.WriteLine(circle);
             Console.Read();
         }
     }

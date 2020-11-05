@@ -92,6 +92,15 @@ namespace GeometricObjectsSolution
         #endregion
 
         #region +--- Klassenmethoden -------------------------------+
+        /// <summary>
+        /// Berechnet die Fläche eines beliebigen Kreises.
+        /// </summary>
+        /// <param name="radius">Geben Sie den Radius des Kreises an</param>
+        /// <returns>Liefert die Kreisfläche</returns>
+        /// <remarks>Die Methode ist 'static' definiert.
+        /// <para>Sie müssen die Methode auf dem Klassenbezeichner aufrufen.
+        /// </para>
+        /// </remarks>
         public static double GetArea(int radius) => Math.PI * Math.Pow(radius, 2);
         public static double GetPerimeter(int radius) => 2 * Math.PI * radius;
         #endregion
